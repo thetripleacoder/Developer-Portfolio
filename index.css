@@ -40,6 +40,7 @@ Photo by Buchkiste from Pexels
   padding-bottom: 1rem;
 }
 
+
 #about {
   background-color: rgba(0, 43, 53, 0.589);
   color: white;
@@ -66,8 +67,8 @@ Photo by Buchkiste from Pexels
 
 #projects img {
   height: 20rem;
-  object-fit: contain;
-  object-position: 50%;
+  object-fit: cover;
+  object-position: 0% 0%;
 }
 
 #projects a:hover {
@@ -87,14 +88,14 @@ Photo by Buchkiste from Pexels
   margin-top: 2rem;
 }
 
-/* #contact {
+#contact {
   background-color: rgba(0, 54, 66, 0.651);
   padding-bottom: 5rem;
 }
 
 #contact h3 {
   color: white;
-  text-decoration: underline;
+
 }
 
 .contact-content {
@@ -105,7 +106,7 @@ Photo by Buchkiste from Pexels
 #contact form {
   background-color: white;
   padding: 3rem 2rem;
-  width: 100%;
+  width: 30rem;
   height: 100%;
 }
 
@@ -123,13 +124,13 @@ Photo by Buchkiste from Pexels
 #survey-form textarea {
   display: block;
   width: 100%;
-} */
+}
 
 #footer {
   /* padding-top: 2rem; */
   background-color: rgb(0, 43, 53);
   color: white;
-  height: 50vh;
+
 }
 
 .socMedLinks {
@@ -139,7 +140,7 @@ Photo by Buchkiste from Pexels
 }
 
 .socMedLinksRow {
-  margin-bottom: 6rem;
+  margin-bottom: 1rem;
 }
 
 
