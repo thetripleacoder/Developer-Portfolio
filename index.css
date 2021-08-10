@@ -18,7 +18,7 @@ body {
   transition: top 0.3s;
   margin: 0;
   top: 0;
-  padding: 0.3rem 1rem;
+  padding: 0.5rem 1rem;
 }
 
 #navigationBar a {
@@ -31,37 +31,36 @@ body {
 }
 
 #jumbotron {
-  background: rgba(218, 248, 255, 0.514);
+  background: 0;
   margin: 0;
-  z-index: 0;
-  top: 0;
-  position: sticky;
-
 }
 
 .section-title {
-  padding-top: 5rem;
-  padding-bottom: 2rem;
+  margin-bottom: 3rem;
+}
+
+.section-container {
+  padding-top: 4rem;
+  padding-bottom: 5rem;
 }
 
 #about {
-  background-color: rgba(0, 43, 53, 0);
+  background-color: 0;
   color: black;
-  padding-bottom: 2rem;
-  height: 100vh;
 }
 
 #profileImg {
-  height: 25vh;
+  height: 15rem;
+  margin: 2rem 0 4rem 0;
 }
 
 #gradImg {
-  height: 5vh;
+  width: 10rem;
+  height: auto;
 }
 
-#aboutInfo {
-  padding-top: 20vh;
-}
+
+
 
 /* #tools {
   background-color: rgba(0, 66, 82, 0.452);
@@ -73,8 +72,12 @@ body {
 } */
 
 #projects {
-  border-top: 5px dashed black;
-  background-color: white;
+  border-top: 4px dashed white;
+  background-color: rgb(54, 54, 54);
+}
+
+#projects h3 {
+  color: white;
 }
 
 #projects img {
@@ -85,29 +88,16 @@ body {
 
 #projects a:hover {
   background-color: gray;
-  border: none;
-}
+  border-color: white;
 
-.projectRow {
-  min-height: 100%;
-}
-
-.project-cards {
-  margin-bottom: 5rem;
 }
 
 #contact {
-  background-color: rgba(0, 54, 66, 0.651);
-  padding-bottom: 5rem;
+  background-color: rgba(255, 255, 255, 0.301);
 }
 
 #contact h3 {
-  color: white;
-}
-
-.contact-content {
-  margin-bottom: 5rem;
-  margin-bottom: 1rem;
+  color: black;
 }
 
 #contact form {
@@ -115,33 +105,23 @@ body {
   padding: 3rem 2rem;
   width: 30rem;
   height: 100%;
+  box-shadow: -15px 30px 50px 2px black;
 }
 
 #contact iframe {
   width: 100%;
   height: 100%;
-}
-
-.div-form {
-  margin-top: 1rem;
-}
-
-#survey-form label,
-#survey-form input,
-#survey-form textarea {
-  display: block;
-  width: 100%;
+  box-shadow: 15px 30px 50px 2px black;
 }
 
 #footer {
-  background-color: rgb(0, 43, 53);
-  color: white;
-
+  background-color: rgb(255, 255, 255);
+  color: black;
 }
 
 .socMedLinks {
   margin: 1rem;
-  color: white;
+  color: black;
   text-decoration: none;
 }
 
@@ -150,8 +130,8 @@ body {
 }
 
 .socMedLinks:hover {
-  color: black;
-  background-color: white;
+  color: white;
+  background-color: black;
 }
 
 #footer span {
