@@ -6,7 +6,7 @@
 
 body {
   font-family: "Montserrat", sans-serif;
-  background-image: url("../images/paper-new.jpg");
+  background-image: url("./images/paper-new.jpg");
   /* 
 Photo by Buchkiste from Pexels
  */
@@ -18,12 +18,10 @@ Photo by Buchkiste from Pexels
 
 #navigationBar {
   background-color: white;
-
 }
 
 #navigationBar a {
   color: black;
-
 }
 
 #navigationBar a:hover {
@@ -40,19 +38,15 @@ Photo by Buchkiste from Pexels
   width: 100%;
   padding-top: 4rem;
   padding-bottom: 1rem;
-
 }
-
 
 #about {
   background-color: rgba(0, 43, 53, 0.589);
   color: white;
   padding-bottom: 2rem;
-
 }
 
 #about p {
-
   margin: 1rem;
 }
 
@@ -65,12 +59,9 @@ Photo by Buchkiste from Pexels
   margin-bottom: 4rem;
 } */
 
-
-
 #projects {
   border-top: 5px dashed black;
   background-color: white;
-
 }
 
 #projects img {
@@ -82,24 +73,19 @@ Photo by Buchkiste from Pexels
 #projects a:hover {
   background-color: gray;
   border: none;
-
 }
-
 
 .projectRow {
   min-height: 100%;
 }
 
 .project-cards {
-
   margin-bottom: 5rem;
-
 }
 
 .projectCard {
   margin-top: 2rem;
 }
-
 
 /* #contact {
   background-color: rgba(0, 54, 66, 0.651);
@@ -144,28 +130,22 @@ Photo by Buchkiste from Pexels
   background-color: rgb(0, 43, 53);
   color: white;
   height: 50vh;
-
 }
 
 .socMedLinks {
   margin: 1rem;
   color: white;
   text-decoration: none;
-
-
 }
 
 .socMedLinksRow {
   margin-bottom: 6rem;
-
-
 }
 
 
 .socMedLinks:hover {
   color: black;
   background-color: white;
-
 }
 
 #footer span {
