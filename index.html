@@ -54,34 +54,40 @@
 
     <!-- About Me -->
     <div class="" id="about">
+
+
       <div class="text-center align-self-center section-title">
         <h3>About the Developer</h3>
       </div>
       <div class="d-flex flex-wrap justify-content-center">
         <div class="text-center col-sm-12 col-lg-8">
+
+
+
           <div class="row section-content">
 
             <div class="col-sm-12 col-md-12 justify-content-center align-self-center">
-              <img src="./images/profile.jpg" class="img-fluid rounded-circle" width="25%" alt="" />
+              <img src="./images/profile.jpg" class="img-fluid rounded-circle" alt="" id="profileImg" />
             </div>
+
 
           </div>
-          <div class="row d-flex justify-content-center align-items-center">
+          <div class="row d-flex justify-content-center align-items-center " id="aboutInfo">
 
-            <div class="col-sm-12 col-md-5 order-md-1 align-self-center">
-              <h4 class="text-center px-5 py-3">
-                Bachelor of Science in Aerospace Engineering graduate
-              </h4>
-            </div>
-            <div class="col-sm-3 col-md-2 order-md-2  align-self-center">
+            <div class="col-sm-12 col-md-2 order-md-2  align-self-center my-2">
               <img src="https://cdn.pixabay.com/photo/2016/03/19/04/40/cap-1266204_960_720.png"
-                class="img-fluid rounded-circle" width="60%" alt="" />
+                class="img-fluid rounded-circle" alt="" id="gradImg" />
+            </div>
+            <div class="col-sm-12 col-md-5 order-md-1 align-self-center">
+              <h5 class="text-center pt-3 pl-2">
+                Bachelor of Science in Aerospace Engineering graduate
+              </h5>
             </div>
             <div class="col-sm-12 col-md-5 order-md-3 align-self-center">
-              <h4 class="text-center px-5 py-3">
+              <h5 class="text-center pt-3 pr-2">
                 I.T. Coding Bootcamp graduate
 
-              </h4>
+              </h5>
             </div>
 
           </div>
@@ -126,7 +132,7 @@
     </div>
     <div class="d-flex flex-wrap justify-content-center">
       <div class="col-sm-12 col-lg-8 text-center project-cards">
-        <div class="row projectRow">
+        <div class="row section-content">
           <div class="col-xs-12 col-lg-6">
             <div class="card projectCard">
               <img class="card-img-top" src="./images/csp1-1.jpg" alt="Card image" />
@@ -163,7 +169,7 @@
     </div>
     <div class="d-flex flex-wrap justify-content-center">
       <div class="col-sm-12 col-lg-8">
-        <div class="row">
+        <div class="row section-content">
           <!-- <div class="col-sm-12 col-md-6 contact-content">
             <form action="/sampleserver.com" id="survey-form">
               <div class="div-form">
@@ -252,6 +258,18 @@
   </script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous">
+  </script>
+  <script>
+    var prevScrollpos = window.pageYOffset;
+    window.onscroll = function () {
+      var currentScrollPos = window.pageYOffset;
+      if (prevScrollpos > currentScrollPos) {
+        document.getElementById("navigationBar").style.top = "0";
+      } else {
+        document.getElementById("navigationBar").style.top = "-50px";
+      }
+      prevScrollpos = currentScrollPos;
+    }
   </script>
 </body>
 
