@@ -17,16 +17,22 @@ Photo by Buchkiste from Pexels
 }
 
 #navigationBar {
-  background-color: rgb(0, 27, 34);
+  background-color: white;
 
 }
 
 #navigationBar a {
-  color: white;
+  color: black;
+
+}
+
+#navigationBar a:hover {
+  color: gray;
+  font-size: large;
 }
 
 #jumbotron {
-  background: rgba(0, 105, 131, 0.137);
+  background: rgba(218, 248, 255, 0.514);
   margin: 0
 }
 
@@ -37,13 +43,11 @@ Photo by Buchkiste from Pexels
 
 }
 
-.section-content {
-  margin-bottom: 5rem;
-}
 
 #about {
-  background-color: rgba(0, 35, 44);
+  background-color: rgba(0, 43, 53, 0.589);
   color: white;
+  padding-bottom: 2rem;
 
 }
 
@@ -75,6 +79,12 @@ Photo by Buchkiste from Pexels
   object-position: 50%;
 }
 
+#projects a:hover {
+  background-color: gray;
+  border: none;
+
+}
+
 
 .projectRow {
   min-height: 100%;
@@ -82,7 +92,7 @@ Photo by Buchkiste from Pexels
 
 .project-cards {
 
-  margin-bottom: 10rem;
+  margin-bottom: 5rem;
 
 }
 
@@ -91,8 +101,8 @@ Photo by Buchkiste from Pexels
 }
 
 
-#contact {
-  background-color: rgba(0, 35, 44, 0.89);
+/* #contact {
+  background-color: rgba(0, 54, 66, 0.651);
   padding-bottom: 5rem;
 }
 
@@ -127,24 +137,38 @@ Photo by Buchkiste from Pexels
 #survey-form textarea {
   display: block;
   width: 100%;
-}
+} */
 
 #footer {
-  padding-top: 2rem;
-  background-color: white;
+  /* padding-top: 2rem; */
+  background-color: rgb(0, 43, 53);
+  color: white;
+  height: 50vh;
+
 }
 
-#footer a {
+.socMedLinks {
   margin: 1rem;
-  color: gray;
+  color: white;
   text-decoration: none;
+
+
+}
+
+.socMedLinksRow {
+  margin-bottom: 6rem;
+
+
+}
+
+
+.socMedLinks:hover {
+  color: black;
+  background-color: white;
+
 }
 
 #footer span {
   margin: 1rem;
   text-decoration: none;
-}
-
-#footer a:hover {
-  color: black;
 }
