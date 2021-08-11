@@ -37,6 +37,8 @@ body {
 
 .section-title {
   margin-bottom: 3rem;
+  text-decoration: underline;
+
 }
 
 .section-container {
@@ -76,8 +78,19 @@ body {
   background-color: rgb(44, 44, 44);
 }
 
+#projectsTitle {
+  text-decoration: underline;
+  color: white;
+}
+
 #projects h3 {
   color: white;
+}
+
+#projects h5 {
+  color: white;
+  margin-bottom: 1rem;
+
 }
 
 #projects img {
@@ -89,6 +102,18 @@ body {
 #projects a:hover {
   background-color: gray;
   border-color: white;
+
+}
+
+.projectTitle {
+  color: white;
+  background-color: rgb(61, 61, 61);
+  padding: 1rem;
+}
+
+.projectCardBootcamp {
+  min-height: 100%;
+
 
 }
 
