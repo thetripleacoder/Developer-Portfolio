@@ -93,38 +93,57 @@ body {
 
 }
 
-#projects img {
+.capstoneImg {
   height: 20rem;
   object-fit: cover;
   object-position: 50% 0%;
 }
 
-#projects a:hover {
-  background-color: gray;
-  border-color: white;
-
+.capstoneImg:hover {
+  height: 20rem;
+  object-fit: contain;
+  object-position: 50% 50%;
 }
 
+.fccImg {
+  height: 20rem;
+  object-fit: cover;
+  object-position: 50% 0%;
+}
+
+.fccImg:hover {
+  height: 20rem;
+  object-fit: contain;
+  object-position: 50% 50%;
+}
+
+
 .projectTitle {
-  color: white;
-  background-color: rgb(61, 61, 61);
+  color: black;
+  background-color: rgb(233, 233, 233);
   padding: 1rem;
 }
 
 .projectButton {
-  margin: 1rem;
+  margin: 0 auto 1rem;
+  width: 50%;
+  background-color: white;
+  color: black;
+  text-align: center;
+}
+
+.projectButton:hover {
+
+  background-color: black;
+  color: white;
 }
 
 .projectCardBootcamp {
   min-height: 100%;
-
-
 }
 
 .projectCard {
   min-height: 100%;
-
-
 }
 
 #contact {
@@ -135,18 +154,43 @@ body {
   color: black;
 }
 
-#contact form {
+/* #contact form {
   background-color: white;
   padding: 3rem 2rem;
   width: 30rem;
   height: 100%;
   box-shadow: -15px 30px 50px 2px black;
-}
+} */
 
-#contact iframe {
+/* #contact iframe {
   width: 100%;
   height: 100%;
   box-shadow: 15px 30px 50px 2px black;
+} */
+
+#contact-form {
+  background-color: white;
+  padding: 3rem 2rem;
+  width: 30rem;
+  height: 100%;
+  box-shadow: 0 30px 50px 2px black;
+
+}
+
+.contactButton {
+  margin: 3rem auto 0;
+  width: 50%;
+  background-color: white;
+  color: black;
+  align-items: center;
+  justify-content: center;
+  border-color: rgb(168, 168, 168);
+}
+
+.contactButton:hover {
+
+  background-color: black;
+
 }
 
 #footer {
