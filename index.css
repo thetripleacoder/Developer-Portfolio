@@ -111,7 +111,17 @@ body {
   padding: 1rem;
 }
 
+.projectButton {
+  margin: 1rem;
+}
+
 .projectCardBootcamp {
+  min-height: 100%;
+
+
+}
+
+.projectCard {
   min-height: 100%;
 
 
