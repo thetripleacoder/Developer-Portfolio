@@ -97,10 +97,12 @@ body {
   height: 20rem;
   object-fit: cover;
   object-position: 50% 0%;
+  transition: object-fit 2s;
+  background-color: rgb(88, 88, 88);
 }
 
 .capstoneImg:hover {
-  height: 20rem;
+
   object-fit: contain;
   object-position: 50% 50%;
 }
@@ -109,10 +111,11 @@ body {
   height: 20rem;
   object-fit: cover;
   object-position: 50% 0%;
+  background-color: rgb(88, 88, 88);
 }
 
 .fccImg:hover {
-  height: 20rem;
+
   object-fit: contain;
   object-position: 50% 50%;
 }
