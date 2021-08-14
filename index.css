@@ -122,6 +122,16 @@ body {
   color: black;
   background-color: rgb(233, 233, 233);
   padding: 1rem;
+  font-weight: bold;
+}
+
+/* .capstoneTitle {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+} */
+
+.projectDescription {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-style: italic;
 }
 
 .projectButton {
