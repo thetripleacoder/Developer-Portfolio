@@ -99,12 +99,14 @@ body {
   object-position: 50% 0%;
   transition: object-fit 2s;
   background-color: rgb(88, 88, 88);
+  transition: all 1s ease-out;
 }
 
 .capstoneImg:hover {
 
-  object-fit: contain;
   object-position: 50% 50%;
+  object-fit: contain;
+
 }
 
 .fccImg {
@@ -112,12 +114,13 @@ body {
   object-fit: cover;
   object-position: 50% 0%;
   background-color: rgb(88, 88, 88);
+  transition: all 1s ease-in-out;
 }
 
 .fccImg:hover {
 
-  object-fit: contain;
   object-position: 50% 50%;
+  object-fit: contain;
 }
 
 
