@@ -12,6 +12,8 @@
   <link rel="stylesheet" href="index.css" />
   <link rel="preconnect" href="https://fonts.gstatic.com" />
   <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Gochi+Hand&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
     integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
   <link rel="icon" type="image/png" href="./images/favicon4.ico" />
@@ -20,7 +22,7 @@
 <body>
   <div class="container-fluid p-0 m-0">
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="navigationBar">
+    <nav class=" container-fluid navbar navbar-expand-lg navbar-light fixed-top" id="navigationBar">
       <a class="navbar-brand" href="#">AAA</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
         aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -48,7 +50,7 @@
     <!-- Jumbotron -->
     <div class="jumbotron jumbotron-fluid d-flex vh-100" id="jumbotron">
       <div class="container text-center align-self-center">
-        <h1>Hi! I'm Aldous Aldwin Alde</h1>
+        <h1 class="home-greeting">Hi! I'm Aldous Aldwin Alde</h1>
         <h3>Full Stack Web Developer</h3>
         <div class="mt-5">
           <a href="#contact">
@@ -342,7 +344,7 @@
       if (prevScrollpos > currentScrollPos) {
         document.getElementById("navigationBar").style.top = "0";
       } else {
-        document.getElementById("navigationBar").style.top = "-50px";
+        document.getElementById("navigationBar").style.top = "-100%";
       }
       prevScrollpos = currentScrollPos;
     }
