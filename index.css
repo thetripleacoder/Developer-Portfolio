@@ -59,12 +59,13 @@ body {
   ;
 }
 
-
-
 .section-title {
   margin-bottom: 3rem;
   text-decoration: underline;
+}
 
+.section-title h3 {
+  font-size: 5rem;
 }
 
 .section-container {
