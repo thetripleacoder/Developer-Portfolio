@@ -65,7 +65,7 @@ body {
 }
 
 .section-title h3 {
-  font-size: 5rem;
+  font-size: 3rem;
 }
 
 .section-container {
@@ -103,6 +103,7 @@ body {
 #projects {
   border-top: 4px dashed white;
   background-color: rgb(44, 44, 44);
+  padding-bottom: 0;
 }
 
 #projectsTitle {
@@ -110,42 +111,45 @@ body {
   color: white;
 }
 
-#projects h3 {
-  color: white;
+.project-section-title {
+  margin-bottom: 2rem;
 }
 
-#projects h5 {
-  color: white;
-  margin-bottom: 1rem;
-
-}
 
 .capstoneImg {
   height: 20rem;
   object-fit: cover;
   object-position: 50% 0%;
   transition: object-fit 2s;
-  background-color: rgb(88, 88, 88);
   transition: all 1s ease-out;
 }
 
 .capstoneImg:hover {
+  background-color: rgb(59, 59, 59);
 
   object-position: 50% 50%;
   object-fit: contain;
 
 }
 
+.fcc-section {
+  margin: 8rem 0;
+  padding: 5rem 0;
+  background-color: rgb(230, 230, 230);
+
+}
+
+
 .fccImg {
   height: 20rem;
   object-fit: cover;
   object-position: 50% 0%;
-  background-color: rgb(88, 88, 88);
-  transition: all 1s ease-in-out;
+
+  transition: all 1s ease-out;
 }
 
 .fccImg:hover {
-
+  background-color: rgb(92, 92, 92);
   object-position: 50% 50%;
   object-fit: contain;
 }
@@ -157,6 +161,7 @@ body {
   padding: 1rem;
   font-weight: bold;
 }
+
 
 /* .capstoneTitle {
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -187,6 +192,16 @@ body {
 
 .projectCard {
   min-height: 100%;
+}
+
+#fcc-title {
+  color: black;
+
+}
+
+#bootcamp-title {
+  color: white;
+
 }
 
 #contact {
