@@ -21,6 +21,13 @@ body {
   padding: 0.5rem 1rem;
 }
 
+@media (max-width: 768px) {
+  #navigationBar {
+    background-color: rgba(99, 99, 99, 0.192);
+  }
+}
+
+
 #navigationBar a {
   color: black;
   font-size: 30px;
@@ -119,7 +126,7 @@ body {
 .capstoneImg {
   height: 20rem;
   object-fit: cover;
-  object-position: 50% 0%;
+  object-position: 50% 50%;
   transition: object-fit 2s;
   transition: all 1s ease-out;
 }
@@ -143,7 +150,7 @@ body {
 .fccImg {
   height: 20rem;
   object-fit: cover;
-  object-position: 50% 0%;
+  object-position: 0% 50%;
 
   transition: all 1s ease-out;
 }
