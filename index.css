@@ -95,9 +95,6 @@ body {
   height: auto;
 }
 
-
-
-
 /* #tools {
   background-color: rgba(0, 66, 82, 0.452);
   padding: 3rem 0;
@@ -119,7 +116,26 @@ body {
 }
 
 .project-section-title {
-  margin-bottom: 2rem;
+  padding: 4rem 0 2rem;
+}
+
+#fcc-title {
+  color: black;
+  font-weight: bold;
+}
+
+#bootcamp-title {
+  color: black;
+  font-weight: bold;
+}
+
+.capstone-section {
+  background-color: rgb(230, 230, 230);
+}
+
+.fcc-section {
+  background-color: rgb(230, 230, 230);
+  padding: 0 0 3rem 0;
 }
 
 
@@ -133,25 +149,15 @@ body {
 
 .capstoneImg:hover {
   background-color: rgb(59, 59, 59);
-
   object-position: 50% 50%;
   object-fit: contain;
-
-}
-
-.fcc-section {
-  margin: 8rem 0;
-  padding: 5rem 0;
-  background-color: rgb(230, 230, 230);
-
 }
 
 
 .fccImg {
   height: 20rem;
   object-fit: cover;
-  object-position: 0% 50%;
-
+  object-position: 50% 50%;
   transition: all 1s ease-out;
 }
 
@@ -168,7 +174,6 @@ body {
   padding: 1rem;
   font-weight: bold;
 }
-
 
 /* .capstoneTitle {
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -188,27 +193,24 @@ body {
 }
 
 .projectButton:hover {
-
   background-color: black;
   color: white;
 }
 
+
 .projectCardBootcamp {
   min-height: 100%;
+  border: solid 2px rgb(182, 182, 182);
+  box-shadow: 12px 12px 2px 1px rgba(0, 0, 0, 0.2);
+  ;
+  ;
 }
 
 .projectCard {
   min-height: 100%;
-}
-
-#fcc-title {
-  color: black;
-
-}
-
-#bootcamp-title {
-  color: white;
-
+  border: solid 2px rgb(182, 182, 182);
+  box-shadow: 12px 12px 2px 1px rgba(0, 0, 0, 0.2);
+  ;
 }
 
 #contact {
@@ -239,7 +241,6 @@ body {
   width: 30rem;
   height: 100%;
   box-shadow: 0 30px 50px 2px black;
-
 }
 
 .contactButton {
@@ -253,9 +254,7 @@ body {
 }
 
 .contactButton:hover {
-
   background-color: black;
-
 }
 
 #footer {
