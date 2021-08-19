@@ -1,5 +1,13 @@
-# csp1
+# Developer Portfolio
 
-## Creation Date
+A single page static website created with HTML, CSS, Bootstrap framework and jQuery
 
-June 11, 2021
+## About
+
+* About the Developer
+* Projects
+* Contact for collaborations
+
+## Date Created
+
+July 21, 2021
