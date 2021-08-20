@@ -104,17 +104,6 @@ body {
   height: auto;
 }
 
-/* Tools */
-
-/* #tools {
-  background-color: rgba(0, 66, 82, 0.452);
-  padding: 3rem 0;
-}
-
-#tools h3 {
-  margin-bottom: 4rem;
-} */
-
 /* Projects */
 
 /* Global projects classes */
@@ -255,22 +244,6 @@ body {
 .contact-button:hover {
   background-color: black;
 }
-
-/* #contact form {
-  background-color: white;
-  padding: 3rem 2rem;
-  width: 30rem;
-  height: 100%;
-  box-shadow: -15px 30px 50px 2px black;
-} */
-
-/* #contact iframe {
-  width: 100%;
-  height: 100%;
-  box-shadow: 15px 30px 50px 2px black;
-} */
-
-/* Footer */
 
 #footer {
   background-color: rgb(255, 255, 255);
