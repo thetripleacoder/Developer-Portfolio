@@ -13,7 +13,9 @@ body {
   background-size: cover;
 }
 
-#navigationBar {
+/* Navbar */
+
+#navigation-bar {
   background-color: rgba(0, 0, 0, 0);
   transition: top 0.3s;
   margin: 0;
@@ -22,21 +24,23 @@ body {
 }
 
 @media (max-width: 768px) {
-  #navigationBar {
+  #navigation-bar {
     background-color: rgba(99, 99, 99, 0.192);
   }
 }
 
 
-#navigationBar a {
+#navigation-bar a {
   color: black;
   font-size: 30px;
 }
 
-#navigationBar a:hover {
+#navigation-bar a:hover {
   color: gray;
   font-size: 35px;
 }
+
+/* Jumbotron */
 
 #jumbotron {
   background: 0;
@@ -66,6 +70,13 @@ body {
   ;
 }
 
+/* Global section classes*/
+
+.section-container {
+  padding-top: 4rem;
+  padding-bottom: 5rem;
+}
+
 .section-title {
   margin-bottom: 3rem;
   text-decoration: underline;
@@ -75,25 +86,25 @@ body {
   font-size: 3rem;
 }
 
-.section-container {
-  padding-top: 4rem;
-  padding-bottom: 5rem;
-}
+/* About */
+
 
 #about {
   background-color: 0;
   color: black;
 }
 
-#profileImg {
+#about-profile-image {
   height: 15rem;
   margin: 2rem 0 4rem 0;
 }
 
-#gradImg {
+#about-grad-cap-image {
   width: 10rem;
   height: auto;
 }
+
+/* Tools */
 
 /* #tools {
   background-color: rgba(0, 66, 82, 0.452);
@@ -104,86 +115,38 @@ body {
   margin-bottom: 4rem;
 } */
 
+/* Projects */
+
+/* Global projects classes */
+
 #projects {
   border-top: 4px dashed white;
   background-color: rgb(44, 44, 44);
   padding-bottom: 0;
 }
 
-#projectsTitle {
+#projects-section-title {
   text-decoration: underline;
   color: white;
 }
 
-.project-section-title {
+.projects-collection-heading {
   padding: 4rem 0 2rem;
 }
 
-#fcc-title {
-  color: black;
-  font-weight: bold;
-}
-
-#bootcamp-title {
-  color: black;
-  font-weight: bold;
-}
-
-.capstone-section {
-  background-color: rgb(230, 230, 230);
-}
-
-.fcc-section {
-  background-color: rgb(230, 230, 230);
-  padding: 0 0 3rem 0;
-}
-
-
-.capstoneImg {
-  height: 20rem;
-  object-fit: cover;
-  object-position: 50% 50%;
-  transition: all 0.5s ease-out;
-}
-
-.capstoneImg:hover {
-  background-color: rgb(165, 165, 165);
-  object-position: 50% 50%;
-  object-fit: contain;
-}
-
-
-.fccImg {
-  height: 20rem;
-  object-fit: cover;
-  object-position: 50% 50%;
-  transition: all 0.5s ease-out;
-}
-
-.fccImg:hover {
-  background-color: rgb(165, 165, 165);
-  object-position: 50% 50%;
-  object-fit: contain;
-}
-
-
-.projectTitle {
+.project-card-title {
   color: black;
   background-color: rgb(233, 233, 233);
   padding: 1rem;
   font-weight: bold;
 }
 
-/* .capstoneTitle {
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-} */
-
-.projectDescription {
+.project-card-description {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-style: italic;
 }
 
-.projectButton {
+.project-card-button {
   margin: 0 auto 1rem;
   width: 50%;
   background-color: white;
@@ -191,33 +154,106 @@ body {
   text-align: center;
 }
 
-.projectButton:hover {
+.project-card-button:hover {
   background-color: black;
   color: white;
 }
 
 
-.projectCardBootcamp {
-  min-height: 100%;
-  border: solid 2px rgb(182, 182, 182);
-  box-shadow: 12px 12px 2px 1px rgba(0, 0, 0, 0.2);
-  ;
-  ;
+/* Bootcamp projects */
+
+#bootcamp-section {
+  background-color: rgb(230, 230, 230);
 }
 
-.projectCard {
+#bootcamp-heading {
+  color: black;
+  font-weight: bold;
+}
+
+.capstone-project-card {
   min-height: 100%;
   border: solid 2px rgb(182, 182, 182);
   box-shadow: 12px 12px 2px 1px rgba(0, 0, 0, 0.2);
-  ;
 }
+
+.capstone-project-card-image {
+  height: 20rem;
+  object-fit: cover;
+  object-position: 50% 50%;
+  transition: all 0.5s ease-out;
+}
+
+.capstone-project-card-image:hover {
+  background-color: rgb(165, 165, 165);
+  object-position: 50% 50%;
+  object-fit: contain;
+}
+
+
+/* FreeCodeCamp Projects */
+
+
+#fcc-section {
+  background-color: rgb(230, 230, 230);
+  padding: 0 0 3rem 0;
+}
+
+#fcc-title {
+  color: black;
+  font-weight: bold;
+}
+
+.fcc-project-card {
+  min-height: 100%;
+  border: solid 2px rgb(182, 182, 182);
+  box-shadow: 12px 12px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.fcc-project-card-image {
+  height: 20rem;
+  object-fit: cover;
+  object-position: 50% 50%;
+  transition: all 0.5s ease-out;
+}
+
+.fcc-project-card-image:hover {
+  background-color: rgb(165, 165, 165);
+  object-position: 50% 50%;
+  object-fit: contain;
+}
+
+/* Contact */
+
 
 #contact {
   background-color: rgba(255, 255, 255, 0.301);
 }
 
-#contact h3 {
+#contact-section-title {
   color: black;
+}
+
+#contact-form {
+  background-color: white;
+  padding: 3rem 2rem;
+  width: 30rem;
+  height: 100%;
+  box-shadow: 0 30px 50px 2px black;
+}
+
+.contact-button {
+  margin: 3rem auto 0;
+  width: 50%;
+  background-color: white;
+  color: black;
+  align-items: center;
+  justify-content: center;
+  border-color: rgb(168, 168, 168);
+}
+
+.contact-button:hover {
+  background-color: black;
 }
 
 /* #contact form {
@@ -234,49 +270,29 @@ body {
   box-shadow: 15px 30px 50px 2px black;
 } */
 
-#contact-form {
-  background-color: white;
-  padding: 3rem 2rem;
-  width: 30rem;
-  height: 100%;
-  box-shadow: 0 30px 50px 2px black;
-}
-
-.contactButton {
-  margin: 3rem auto 0;
-  width: 50%;
-  background-color: white;
-  color: black;
-  align-items: center;
-  justify-content: center;
-  border-color: rgb(168, 168, 168);
-}
-
-.contactButton:hover {
-  background-color: black;
-}
+/* Footer */
 
 #footer {
   background-color: rgb(255, 255, 255);
   color: black;
 }
 
-.socMedLinks {
+#footer span {
+  margin: 1rem;
+  text-decoration: none;
+}
+
+#contact-links-section {
+  margin-bottom: 1rem;
+}
+
+.contact-link-button {
   margin: 1rem;
   color: black;
   text-decoration: none;
 }
 
-.socMedLinksRow {
-  margin-bottom: 1rem;
-}
-
-.socMedLinks:hover {
+.contact-link-button:hover {
   color: white;
   background-color: black;
-}
-
-#footer span {
-  margin: 1rem;
-  text-decoration: none;
 }

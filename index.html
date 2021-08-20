@@ -22,13 +22,13 @@
 <body>
   <div class="container-fluid p-0 m-0">
     <!-- Navbar -->
-    <nav class=" container-fluid navbar navbar-expand-lg navbar-light fixed-top" id="navigationBar">
+    <nav class=" container-fluid navbar navbar-expand-lg navbar-light fixed-top" id="navigation-bar">
       <a class="navbar-brand" href="#">AAA</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
         aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <!-- Nav-bar -->
+
       <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
         <ul class="navbar-nav">
           <li class="nav-item active">
@@ -70,16 +70,16 @@
           <div class="row ">
 
             <div class="col-sm-12 col-md-12 justify-content-center align-self-center">
-              <img src="./images/profile2.jpg" class="img-fluid rounded-circle" alt="" id="profileImg" />
+              <img src="./images/profile2.jpg" class="img-fluid rounded-circle" alt="" id="about-profile-image" />
             </div>
 
 
           </div>
-          <div class="row d-flex justify-content-center align-items-center" id="aboutInfo">
+          <div class="row d-flex justify-content-center align-items-center">
 
             <div class="col-sm-12 col-md-2 order-md-2  align-self-center my-2">
               <img src="https://cdn.pixabay.com/photo/2016/03/19/04/40/cap-1266204_960_720.png"
-                class="img-fluid rounded-circle" alt="" id="gradImg" />
+                class="img-fluid rounded-circle" alt="" id="about-grad-cap-image" />
             </div>
             <div class="col-sm-12 col-md-5 order-md-1 align-self-center">
               <h5 class="text-center pt-3 pl-2">
@@ -131,64 +131,63 @@
   <!-- Projects -->
   <div class="section-container" id="projects">
     <div class="text-center align-self-center section-title">
-      <h3 id="projectsTitle">Projects</h3>
+      <h3 id="projects-section-title">Projects</h3>
     </div>
-    <div class="capstone-section">
 
-      <div class="capstone-section">
+    <div id="bootcamp-section">
+      <div class="text-center align-self-center projects-collection-heading">
+        <h5 id="bootcamp-heading">Developer Career Program - I.T. Coding Bootcamp</h5>
+      </div>
 
-        <div class="text-center align-self-center project-section-title">
-          <h5 id="bootcamp-title">Developer Career Program - I.T. Coding Bootcamp</h5>
-        </div>
+      <div class="d-flex flex-wrap justify-content-center">
+        <div class="col-sm-12 col-lg-8 text-center">
+          <div class="row">
+            <div class="col-xs-12 col-md-6">
+              <div class="card capstone-project-card ">
+                <img class="card-img-top capstone-project-card-image" src="./images/capstone.jpg" alt="Card image" />
 
-        <div class="d-flex flex-wrap justify-content-center">
-          <div class="col-sm-12 col-lg-8 text-center">
-            <div class="row">
-              <div class="col-xs-12 col-md-6">
-                <div class="card projectCardBootcamp ">
-                  <img class="card-img-top capstoneImg" src="./images/capstone.jpg" alt="Card image" />
+                <div class="card-body">
+                  <h4 class="card-title project-card-title">Capstone Project 1</h4>
+                  <p class="card-text">Developer Portfolio
+                  </p>
 
-                  <div class="card-body ">
-                    <h4 class="card-title projectTitle">Capstone Project 1</h4>
-                    <p class="card-text capstoneTitle">Developer Portfolio
-                    </p>
+                  <p class="card-text project-card-description">Created a single web page portfolio using HTML, CSS and
+                    Bootstrap
+                  </p>
 
-                    <p class="card-text projectDescription">Created a single web page portfolio using HTML, CSS and
-                      Bootstrap
-                    </p>
-
-                  </div>
-                  <a href="https://aldousalde.github.io/csp1/" class="btn btn-dark projectButton" target="_blank">See
-                    Project</a>
                 </div>
+                <a href="https://aldousalde.github.io/csp1/" class="btn btn-dark project-card-button"
+                  target="_blank">See
+                  Project</a>
               </div>
-
-              <div class="col-xs-12 col-md-6">
-                <div class="card projectCardBootcamp">
-                  <img class="card-img-top capstoneImg" src="./images/csp3.jpg" alt="Card image" />
-
-                  <div class="card-body">
-                    <h4 class="card-title projectTitle">Capstone Project 2 & 3</h4>
-                    <p class="card-text capstoneTitle">Full Stack E-Commerce Website</p>
-
-                    <p class="card-text projectDescription">Developed a full stack website using React.js front end
-                      application integrated with MongoDB, Express.js and Node.js backend API
-                    </p>
-
-                  </div>
-                  <a href="https://flamboyant-bhabha-e60cd9.netlify.app/" class="btn btn-dark projectButton"
-                    target="_blank">See
-                    Project</a>
-                </div>
-              </div>
-
             </div>
+
+            <div class="col-xs-12 col-md-6">
+              <div class="card capstone-project-card">
+                <img class="card-img-top capstone-project-card-image" src="./images/csp3.jpg" alt="Card image" />
+
+                <div class="card-body">
+                  <h4 class="card-title project-card-title">Capstone Project 2 & 3</h4>
+                  <p class="card-text">Full Stack E-Commerce Website</p>
+
+                  <p class="card-text project-card-description">Developed a full stack website using React.js front end
+                    application integrated with MongoDB, Express.js and Node.js backend API
+                  </p>
+
+                </div>
+                <a href="https://flamboyant-bhabha-e60cd9.netlify.app/" class="btn btn-dark project-card-button"
+                  target="_blank">See
+                  Project</a>
+              </div>
+            </div>
+
           </div>
         </div>
       </div>
     </div>
-    <div class="fcc-section">
-      <div class="text-center align-self-center project-section-title">
+
+    <div id="fcc-section">
+      <div class="text-center align-self-center projects-collection-heading">
         <h5 id="fcc-title">FreeCodeCamp</h5>
       </div>
 
@@ -197,66 +196,70 @@
           <div class="row">
 
             <div class="col-xs-12 col-md-6 col-lg-3 mb-4">
-              <div class="card projectCard">
-                <img class="card-img-top fccImg" src="./images/fcc-1.jpg" alt="Card image" />
+              <div class="card fcc-project-card">
+                <img class="card-img-top fcc-project-card-image" src="./images/fcc-1.jpg" alt="Card image" />
                 <div class="card-body">
 
-                  <p class="card-text projectTitle">Michael Collins
+                  <p class="card-text project-card-title">Michael Collins
                   </p>
-                  <p class="card-text projectDescription">Built a tribute page for late NASA Astronaut Michael Collins
+                  <p class="card-text project-card-description">Built a tribute page for late NASA Astronaut Michael
+                    Collins
                     using HTML and plain CSS
                   </p>
                 </div>
-                <a href="https://aldousalde.github.io/MichaelCollinstribute/" class="btn btn-dark projectButton"
+                <a href="https://aldousalde.github.io/MichaelCollinstribute/" class="btn btn-dark project-card-button"
                   target="_blank">See
                   Project</a>
               </div>
             </div>
 
             <div class="col-xs-12 col-md-6 col-lg-3 mb-4">
-              <div class="card projectCard">
-                <img class="card-img-top fccImg" src="./images/fcc-2.jpg" alt="Card image" />
+              <div class="card fcc-project-card">
+                <img class="card-img-top fcc-project-card-image" src="./images/fcc-2.jpg" alt="Card image" />
                 <div class="card-body">
 
-                  <p class="card-text projectTitle">Job Satisfaction</p>
-                  <p class="card-text projectDescription">Built a survey form for Job Satisfaction using HTML and plain
+                  <p class="card-text project-card-title">Job Satisfaction</p>
+                  <p class="card-text project-card-description">Built a survey form for Job Satisfaction using HTML and
+                    plain
                     CSS
                   </p>
                 </div>
-                <a href="https://aldousalde.github.io/JobSatisfactionsurvey/" class="btn btn-dark projectButton"
+                <a href="https://aldousalde.github.io/JobSatisfactionsurvey/" class="btn btn-dark project-card-button"
                   target="_blank">See
                   Project</a>
               </div>
             </div>
 
             <div class="col-xs-12 col-md-6 col-lg-3 mb-4">
-              <div class="card projectCard">
-                <img class="card-img-top fccImg" src="./images/fcc-3.jpg" alt="Card image" />
+              <div class="card fcc-project-card">
+                <img class="card-img-top fcc-project-card-image" src="./images/fcc-3.jpg" alt="Card image" />
                 <div class="card-body">
 
-                  <p class="card-text projectTitle">acer Aspire VX 15</p>
-                  <p class="card-text projectDescription">Built a product landing page for acer Aspire VX 15 laptop
+                  <p class="card-text project-card-title">acer Aspire VX 15</p>
+                  <p class="card-text project-card-description">Built a product landing page for acer Aspire VX 15
+                    laptop
                     using
                     HTML and plain CSS
                   </p>
                 </div>
-                <a href="https://aldousalde.github.io/acerprodland/" class="btn btn-dark projectButton"
+                <a href="https://aldousalde.github.io/acerprodland/" class="btn btn-dark project-card-button"
                   target="_blank">See
                   Project</a>
               </div>
             </div>
 
             <div class="col-xs-12 col-md-6 col-lg-3 mb-4">
-              <div class="card projectCard">
-                <img class="card-img-top fccImg" src="./images/fcc-4.jpg" alt="Card image" />
+              <div class="card fcc-project-card">
+                <img class="card-img-top fcc-project-card-image" src="./images/fcc-4.jpg" alt="Card image" />
                 <div class="card-body">
 
-                  <p class="card-text projectTitle">C++</p>
-                  <p class="card-text projectDescription">Built a technical documentation page for C++ using HTML and
+                  <p class="card-text project-card-title">C++</p>
+                  <p class="card-text project-card-description">Built a technical documentation page for C++ using HTML
+                    and
                     plain CSS
                   </p>
                 </div>
-                <a href="https://aldousalde.github.io/Cplusplustechdoc/" class=" btn btn-dark projectButton"
+                <a href="https://aldousalde.github.io/Cplusplustechdoc/" class=" btn btn-dark project-card-button"
                   target="_blank">See
                   Project</a>
               </div>
@@ -272,7 +275,7 @@
   <!-- Contact -->
   <div class="section-container" id="contact">
     <div class="text-center align-self-center section-title">
-      <h3>Contact</h3>
+      <h3 id="contact-section-title">Contact</h3>
     </div>
     <div class="d-flex flex-wrap justify-content-center align-items-center">
       <div class="col-sm-12 col-md-3">
@@ -295,7 +298,7 @@
             <textarea class="form-control" id="message" rows="3" required></textarea>
           </div>
           <div>
-            <button type="submit" class="d-flex btn btn-dark contactButton ">Submit</button>
+            <button type="submit" class="d-flex btn btn-dark contact-button ">Submit</button>
           </div>
         </form>
         <!-- </div> -->
@@ -316,13 +319,13 @@
 
         <h2>Connect with Me!</h2>
       </div>
-      <div class="row justify-content-center socMedLinksRow">
-        <a class="btn btn-outline-secondary rounded-circle socMedLinks"
+      <div class="row justify-content-center" id="contact-links-section">
+        <a class="btn btn-outline-secondary rounded-circle contact-link-button"
           href="https://www.linkedin.com/in/aldous-aldwin-alde/" role="button" target="_blank"><i
             class="fab fa-linkedin-in"></i></a>
-        <a class="btn btn-outline-secondary rounded-circle socMedLinks" href="https://github.com/aldousalde"
+        <a class="btn btn-outline-secondary rounded-circle contact-link-button" href="https://github.com/aldousalde"
           role="button" target="_blank"><i class="fab fa-github"></i></a>
-        <a class="btn btn-outline-secondary rounded-circle socMedLinks" href="mailto:alde.aldous@gmail.com"
+        <a class="btn btn-outline-secondary rounded-circle contact-link-button" href="mailto:alde.aldous@gmail.com"
           role="button" target="_blank"><i class="far fa-envelope"></i></a>
       </div>
 
@@ -351,9 +354,9 @@
     window.onscroll = function () {
       var currentScrollPos = window.pageYOffset;
       if (prevScrollpos > currentScrollPos) {
-        document.getElementById("navigationBar").style.top = "0";
+        document.getElementById("navigation-bar").style.top = "0";
       } else {
-        document.getElementById("navigationBar").style.top = "-100%";
+        document.getElementById("navigation-bar").style.top = "-10%";
       }
       prevScrollpos = currentScrollPos;
     }
