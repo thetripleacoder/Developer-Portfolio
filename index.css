@@ -16,7 +16,7 @@ body {
 /* Navbar */
 
 #navigation-bar {
-  background-color: rgba(0, 0, 0, 0);
+  background-color: rgba(173, 173, 173, 0.151);
   transition: top 0.3s;
   margin: 0;
   top: 0;
@@ -25,7 +25,7 @@ body {
 
 @media (max-width: 768px) {
   #navigation-bar {
-    background-color: rgba(99, 99, 99, 0.192);
+    background-color: rgba(173, 173, 173, 0.151);
   }
 }
 
@@ -52,6 +52,7 @@ body {
   padding: 0;
   font-family: 'Gochi Hand', cursive;
   font-size: 5rem;
+  color: black;
 }
 
 .home-button {
