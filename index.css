@@ -93,6 +93,7 @@ body {
 #about {
   background-color: 0;
   color: black;
+  min-height: 100vh;
 }
 
 #about-profile-image {
