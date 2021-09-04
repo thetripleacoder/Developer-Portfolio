@@ -23,7 +23,7 @@
   <div class="container-fluid p-0 m-0">
     <!-- Navbar -->
     <nav class=" container-fluid navbar navbar-expand-lg navbar-light fixed-top" id="navigation-bar">
-      <a class="navbar-brand" href="#">AAA</a>
+      <a class="navbar-brand" href="#"><img src="./images/logo.png" alt="logo" class="navbar-logo" /></a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
         aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -48,9 +48,9 @@
     <div class="jumbotron jumbotron-fluid d-flex vh-100" id="jumbotron">
       <div class="container text-center align-self-center">
 
-        <h1 class="home-greeting "> Hi! I am Aldous Aldwin Alde
+        <h1 class="home-greeting "> Aldous Aldwin Alde
         </h1>
-        <h3 class="typewrite" data-period="2000"
+        <h3 class="typewrite jumbotron-typewrite" data-period="2000"
           data-type='[ "Full Stack Web Developer", "Small Youtube Content Creator", "Aspiring Multimedia Editor", "Amateur Photographer" ]'>
           <span class="wrap"></span>
         </h3>
@@ -69,35 +69,28 @@
         <h3>About the Developer</h3>
       </div>
       <div class="d-flex flex-wrap justify-content-center">
-        <div class="text-center col-sm-12 col-lg-8">
+        <div class=" card text-center col-sm-12 col-md-8 col-lg-4 " id="about-card">
           <div class="row ">
-
-            <div class="col-sm-12 col-md-12 justify-content-center align-self-center">
-              <img src="./images/profile2.jpg" class="img-fluid rounded-circle" alt="" id="about-profile-image" />
+            <div class="col-sm-12 col-md-12 justify-content-center align-self-center mt-5">
+              <img src="./images/profile2.jpg" class="img-fluid " alt="" id="about-profile-image" />
             </div>
-
-
-          </div>
-          <div class="row d-flex justify-content-center align-items-center">
-
-            <div class="col-sm-12 col-md-2 order-md-2  align-self-center my-2">
-              <img src="https://cdn.pixabay.com/photo/2016/03/19/04/40/cap-1266204_960_720.png"
-                class="img-fluid rounded-circle" alt="" id="about-grad-cap-image" />
-            </div>
-            <div class="col-sm-12 col-md-5 order-md-1 align-self-center">
-              <h5 class="text-center pt-3 pl-2">
-                Bachelor of Science in Aerospace Engineering
-              </h5>
-            </div>
-            <div class="col-sm-12 col-md-5 order-md-3 align-self-center">
-              <h5 class="text-center pt-3 pr-2">
-                I.T. Coding Bootcamp
-
-              </h5>
-            </div>
-
           </div>
 
+          <div class="row justify-content-center">
+            <p class="text-center mt-5 mx-5">
+              I am an Aerospace Engineering graduate with internship experience in an aviation Maintenance, Repair
+              and
+              Overhaul (MRO) company.
+
+              Currently, I am a part-time Youtube Content Creator of <a
+                href="https://www.youtube.com/c/VolleyCENTRALOfficial" target="_blank" class="  font-weight-bold">
+                VOLLEYCENTRAL
+              </a>.
+
+              I am also a Full Stack Web Developer pursuing a career as a Software Engineer.
+            </p>
+            </p>
+          </div>
         </div>
       </div>
     </div>
@@ -311,18 +304,6 @@
   </script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous">
-  </script>
-  <script>
-    var prevScrollpos = window.pageYOffset;
-    window.onscroll = function () {
-      var currentScrollPos = window.pageYOffset;
-      if (prevScrollpos > currentScrollPos) {
-        document.getElementById("navigation-bar").style.top = "0";
-      } else {
-        document.getElementById("navigation-bar").style.top = "-10%";
-      }
-      prevScrollpos = currentScrollPos;
-    }
   </script>
 
 
