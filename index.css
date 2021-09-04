@@ -172,14 +172,8 @@ body {
   height: 20rem;
   object-fit: cover;
   object-position: 50% 50%;
-  transition: all 0.5s ease-out;
 }
 
-.capstone-project-card-image:hover {
-  background-color: rgb(165, 165, 165);
-  object-position: 50% 50%;
-  object-fit: contain;
-}
 
 
 /* FreeCodeCamp Projects */
@@ -205,14 +199,10 @@ body {
   height: 20rem;
   object-fit: cover;
   object-position: 50% 50%;
-  transition: all 0.5s ease-out;
+
 }
 
-.fcc-project-card-image:hover {
-  background-color: rgb(165, 165, 165);
-  object-position: 50% 50%;
-  object-fit: contain;
-}
+
 
 /* Contact */
 
