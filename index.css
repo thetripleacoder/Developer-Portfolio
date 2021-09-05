@@ -25,6 +25,17 @@ body {
   transform: scale(1.25)
 }
 
+.navbar-contact-icon {
+  height: 40px;
+  width: 40px;
+  transition: transform .2s;
+
+}
+
+.navbar-contact-icon:hover {
+  transform: scale(1.25)
+}
+
 #navigation-bar {
   background-color: rgb(255, 255, 255);
   transition: top 0.3s;
