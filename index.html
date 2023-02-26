@@ -1,356 +1,609 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
 
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+      integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l"
+      crossorigin="anonymous"
+    />
+    <title>AAA</title>
+    <link rel="stylesheet" href="index.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Gochi+Hand&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"
+    />
+    <link rel="icon" type="image/png" href="./resources/images/favicon4.ico" />
+  </head>
 
-  <!-- Bootstrap CSS -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
-    integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous" />
-  <title>AAA</title>
-  <link rel="stylesheet" href="index.css" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" />
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Gochi+Hand&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
-    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
-  <link rel="icon" type="image/png" href="./images/favicon4.ico" />
-</head>
+  <body>
+    <div class="container-fluid p-0 m-0">
+      <!-- Navbar -->
+      <nav
+        class="container-fluid navbar navbar-expand-lg navbar-light"
+        id="navigation-bar"
+      >
+        <button
+          class="navbar-toggler justify-content-center order-2"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
 
-<body>
-  <div class="container-fluid p-0 m-0">
-    <!-- Navbar -->
-    <nav class=" container-fluid navbar navbar-expand-lg navbar-light mt-5" id="navigation-bar">
-      <button class="navbar-toggler justify-content-center order-2" type="button" data-toggle="collapse"
-        data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon "></span>
-      </button>
-
-      <div class="collapse navbar-collapse justify-content-center " id="navbarNav">
-        <ul class="navbar-nav">
-          <li class="nav-item active">
-            <a class="nav-link" href="#">Home<span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#projects">Projects</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#contact">Contact</a>
-          </li>
-        </ul>
-      </div>
-    </nav>
-
-    <!-- Jumbotron -->
-    <div class="jumbotron jumbotron-fluid d-flex vh-100" id="jumbotron">
-      <div class="container text-center align-self-center">
-
-        <h1 class="home-greeting "> Aldous Aldwin Alde
-        </h1>
-        <h3 class="typewrite jumbotron-typewrite" data-period="2000"
-          data-type='[ "Full Stack Web Developer", "Software Engineer", "Front End Developer"]'>
-          <span class="wrap"></span>
-        </h3>
-
-        <div class="mt-5">
-          <a href="#contact">
-            <button type="button" class="btn btn-light home-button">Let's Talk!</button>
-          </a>
+        <div
+          class="collapse navbar-collapse justify-content-center"
+          id="navbarNav"
+        >
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="#"
+                >Home<span class="sr-only">(current)</span></a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#projects">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
         </div>
-      </div>
-    </div>
+      </nav>
 
-    <!-- Projects -->
-    <div class="section-container" id="projects">
-      <div class="d-flex flex-wrap justify-content-center">
-        <div class="col-sm-12 col-md-10  text-center">
-          <div class="row justify-content-center">
-            <div class="col-sm-12 col-md-4  text-center">
-              <div class=" text-center align-self-center section-title">
-                <h3 class="card" id="projects-section-title">Projects</h3>
-              </div>
-            </div>
+      <!-- Jumbotron -->
+      <div class="jumbotron jumbotron-fluid d-flex vh-100" id="jumbotron">
+        <div class="container text-center align-self-center">
+          <h1 class="home-greeting">Aldous Aldwin Alde</h1>
+          <h3
+            class="typewrite jumbotron-typewrite"
+            data-period="2000"
+            data-type='[ "Full Stack Web Developer", "Software Engineer", "Front End Developer"]'
+          >
+            <span class="wrap"></span>
+          </h3>
+
+          <div class="mt-5">
+            <a href="#contact">
+              <button type="button" class="btn btn-light home-button">
+                Let's Talk!
+              </button>
+            </a>
           </div>
         </div>
       </div>
 
-      <div id="bootcamp-section">
-        <div class="text-center align-self-center projects-collection-heading">
-          <h5 id="bootcamp-heading">Developer Career Program - I.T. Coding Bootcamp</h5>
-        </div>
-
+      <!-- Projects -->
+      <div class="section-container" id="projects">
         <div class="d-flex flex-wrap justify-content-center">
-          <div class="col-sm-12 col-md-10 col-xl-8  text-center">
-            <div class="row">
-              <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6 mb-4">
-                <div class="card capstone-project-card ">
-                  <img class="card-img-top capstone-project-card-image" src="./images/capstone.jpg" alt="Card image" />
-
-                  <div class="card-body">
-                    <h4 class="card-title project-card-title">Capstone Project 1</h4>
-                    <p class="card-text">Developer Portfolio
-                    </p>
-                    <p class="card-text project-card-description">Static single web page built with HTML, CSS
-                      and
-                      Bootstrap
-                    </p>
-                  </div>
-                  <a href="https://aldousalde.netlify.app/" class="btn btn-dark project-card-button" target="_blank">See
-                    Project</a>
-                </div>
-              </div>
-
-              <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6 mb-4">
-                <div class="card capstone-project-card">
-                  <img class="card-img-top capstone-project-card-image" src="./images/csp3.jpg" alt="Card image" />
-
-                  <div class="card-body">
-                    <h4 class="card-title project-card-title">Capstone Project 2 & 3</h4>
-                    <p class="card-text">Full Stack E-Commerce Website</p>
-                    <p class="card-text project-card-description">Dynamic full stack website built with MERN (MongoDB,
-                      Express.js, React.js, Node.js) Tech Stack
-                    </p>
-                  </div>
-                  <a href="https://mystoreofficial.netlify.app/" class="btn btn-dark project-card-button"
-                    target="_blank">See
-                    Project</a>
+          <div class="col-sm-12 col-md-10 text-center">
+            <div class="row justify-content-center">
+              <div class="col-sm-12 col-md-4 text-center">
+                <div class="text-center align-self-center section-title">
+                  <h3 class="card" id="projects-section-title">Projects</h3>
                 </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
 
-      <div id="fcc-section">
-        <div class="text-center align-self-center projects-collection-heading">
-          <h5 id="fcc-title">FreeCodeCamp - Responsive Web Design</h5>
+        <div id="bootcamp-section">
+          <div
+            class="text-center align-self-center projects-collection-heading"
+          >
+            <h5 id="bootcamp-heading">
+              Developer Career Program - I.T. Coding Bootcamp
+            </h5>
+          </div>
+
+          <div class="d-flex flex-wrap justify-content-center">
+            <div class="col-sm-12 col-md-10 col-xl-8 text-center">
+              <div class="row">
+                <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6 mb-4">
+                  <div class="card capstone-project-card">
+                    <img
+                      class="card-img-top capstone-project-card-image"
+                      src="./resources/images/capstone.jpg"
+                      alt="Card image"
+                    />
+
+                    <div class="card-body">
+                      <h4 class="card-title project-card-title">
+                        Capstone Project 1
+                      </h4>
+                      <p class="card-text">Developer Portfolio</p>
+                      <p class="card-text project-card-description">
+                        Static single web page built with HTML, CSS and
+                        Bootstrap
+                      </p>
+                    </div>
+                    <a
+                      href="https://aldousalde.netlify.app/"
+                      class="btn btn-dark project-card-button"
+                      target="_blank"
+                      >See Project</a
+                    >
+                  </div>
+                </div>
+
+                <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6 mb-4">
+                  <div class="card capstone-project-card">
+                    <img
+                      class="card-img-top capstone-project-card-image"
+                      src="./resources/images/csp3.jpg"
+                      alt="Card image"
+                    />
+
+                    <div class="card-body">
+                      <h4 class="card-title project-card-title">
+                        Capstone Project 2 & 3
+                      </h4>
+                      <p class="card-text">Full Stack E-Commerce Website</p>
+                      <p class="card-text project-card-description">
+                        Dynamic full stack website built with MERN (MongoDB,
+                        Express.js, React.js, Node.js) Tech Stack
+                      </p>
+                    </div>
+                    <a
+                      href="https://mystoreofficial.netlify.app/"
+                      class="btn btn-dark project-card-button"
+                      target="_blank"
+                      >See Project</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
 
-        <div class="d-flex flex-wrap justify-content-center">
-          <div class="col-sm-12 col-md-11 col-xl-9 text-center">
-            <div class="row">
-              <div class="col-xs-12 col-md-1 col-lg-1 col-xl-1 text-center align-self-center">
-                <a class="btn btn-secondary mb-3 mr-1" href="#carouselExampleIndicators2" role="button"
-                  data-slide="prev">
-                  <i class="fa fa-arrow-left"></i>
-                </a>
-              </div>
+        <div id="fcc-section">
+          <div
+            class="text-center align-self-center projects-collection-heading"
+          >
+            <h5 id="fcc-title">FreeCodeCamp - Responsive Web Design</h5>
+          </div>
 
-              <div class="col-sm-12 col-md-10 col-lg-10 col-xl-10">
-                <div id="carouselExampleIndicators2" class="carousel slide" data-ride="carousel" data-interval="false">
-                  <div class="carousel-inner">
-                    <div class="carousel-item active">
-                      <div class="row">
-                        <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6 mb-4">
-                          <div class="card fcc-project-card">
-                            <img class="card-img-top fcc-project-card-image" src="./images/fcc-1.jpg"
-                              alt="Card image" />
-                            <div class="card-body">
-                              <h4 class="card-title project-card-title">Michael Collins</h4>
-                              <p class="card-text">Tribute Page
-                              </p>
-                              <p class="card-text project-card-description">Static single web page
-                                built with HTML and plain CSS
-                              </p>
+          <div class="d-flex flex-wrap justify-content-center">
+            <div class="col-sm-12 col-md-11 col-xl-9 text-center">
+              <div class="row">
+                <div
+                  class="col-xs-12 col-md-1 col-lg-1 col-xl-1 text-center align-self-center"
+                >
+                  <a
+                    class="btn btn-secondary mb-3 mr-1"
+                    href="#carouselExampleIndicators2"
+                    role="button"
+                    data-slide="prev"
+                  >
+                    <i class="fa fa-arrow-left"></i>
+                  </a>
+                </div>
+
+                <div class="col-sm-12 col-md-10 col-lg-10 col-xl-10">
+                  <div
+                    id="carouselExampleIndicators2"
+                    class="carousel slide"
+                    data-ride="carousel"
+                    data-interval="false"
+                  >
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <div class="row">
+                          <div
+                            class="col-sm-12 col-md-6 col-lg-6 col-xl-6 mb-4"
+                          >
+                            <div class="card fcc-project-card">
+                              <img
+                                class="card-img-top fcc-project-card-image"
+                                src="./resources/images/fcc-1.jpg"
+                                alt="Card image"
+                              />
+                              <div class="card-body">
+                                <h4 class="card-title project-card-title">
+                                  Michael Collins
+                                </h4>
+                                <p class="card-text">Tribute Page</p>
+                                <p class="card-text project-card-description">
+                                  Static single web page built with HTML and
+                                  plain CSS
+                                </p>
+                              </div>
+                              <a
+                                href="https://thetripleacoder.github.io/MichaelCollinstribute/"
+                                class="btn btn-dark project-card-button"
+                                target="_blank"
+                                >See Project</a
+                              >
                             </div>
-                            <a href="https://thetripleacoder.github.io/MichaelCollinstribute/"
-                              class="btn btn-dark project-card-button" target="_blank">See
-                              Project</a>
+                          </div>
+
+                          <div
+                            class="col-sm-12 col-md-6 col-lg-6 col-xl-6 mb-4"
+                          >
+                            <div class="card fcc-project-card">
+                              <img
+                                class="card-img-top fcc-project-card-image"
+                                src="./resources/images/fcc-2.jpg"
+                                alt="Card image"
+                              />
+                              <div class="card-body">
+                                <h4 class="card-title project-card-title">
+                                  Job Satisfaction
+                                </h4>
+                                <p class="card-text">Survey Form</p>
+                                <p class="card-text project-card-description">
+                                  Static single web page built with HTML and
+                                  plain CSS
+                                </p>
+                              </div>
+                              <a
+                                href="https://thetripleacoder.github.io/JobSatisfactionsurvey/"
+                                class="btn btn-dark project-card-button"
+                                target="_blank"
+                                >See Project</a
+                              >
+                            </div>
                           </div>
                         </div>
+                      </div>
 
-                        <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6 mb-4">
-                          <div class="card fcc-project-card">
-                            <img class="card-img-top fcc-project-card-image" src="./images/fcc-2.jpg"
-                              alt="Card image" />
-                            <div class="card-body">
-                              <h4 class="card-title project-card-title">Job Satisfaction</h4>
-                              <p class="card-text">Survey Form
-                              </p>
-                              <p class="card-text project-card-description">Static single web page
-                                built with HTML and plain CSS
-                              </p>
+                      <div class="carousel-item">
+                        <div class="row">
+                          <div
+                            class="col-sm-12 col-md-6 col-lg-6 col-xl-6 mb-4"
+                          >
+                            <div class="card fcc-project-card">
+                              <img
+                                class="card-img-top fcc-project-card-image"
+                                src="./resources/images/fcc-3.jpg"
+                                alt="Card image"
+                              />
+                              <div class="card-body">
+                                <h4 class="card-title project-card-title">
+                                  acer Aspire VX 15
+                                </h4>
+                                <p class="card-text">Product Landing Page</p>
+                                <p class="card-text project-card-description">
+                                  Static single web page built with HTML and
+                                  plain CSS
+                                </p>
+                              </div>
+                              <a
+                                href="https://thetripleacoder.github.io/acerprodland/"
+                                class="btn btn-dark project-card-button"
+                                target="_blank"
+                                >See Project</a
+                              >
                             </div>
-                            <a href="https://thetripleacoder.github.io/JobSatisfactionsurvey/"
-                              class="btn btn-dark project-card-button" target="_blank">See
-                              Project</a>
+                          </div>
+
+                          <div
+                            class="col-sm-12 col-md-6 col-lg-6 col-xl-6 mb-4"
+                          >
+                            <div class="card fcc-project-card">
+                              <img
+                                class="card-img-top fcc-project-card-image"
+                                src="./resources/images/fcc-4.jpg"
+                                alt="Card image"
+                              />
+                              <div class="card-body">
+                                <h4 class="card-title project-card-title">
+                                  C++
+                                </h4>
+                                <p class="card-text">
+                                  Technical Documentation Page
+                                </p>
+                                <p class="card-text project-card-description">
+                                  Static single web page built with HTML and
+                                  plain CSS
+                                </p>
+                              </div>
+                              <a
+                                href="https://thetripleacoder.github.io/Cplusplustechdoc/"
+                                class="btn btn-dark project-card-button"
+                                target="_blank"
+                                >See Project</a
+                              >
+                            </div>
                           </div>
                         </div>
                       </div>
                     </div>
-
-                    <div class="carousel-item ">
-                      <div class="row">
-                        <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6 mb-4">
-                          <div class="card fcc-project-card">
-                            <img class="card-img-top fcc-project-card-image" src="./images/fcc-3.jpg"
-                              alt="Card image" />
-                            <div class="card-body">
-                              <h4 class="card-title project-card-title">acer Aspire VX 15</h4>
-                              <p class="card-text">Product Landing Page
-                              </p>
-                              <p class="card-text project-card-description">Static single web page
-                                built with HTML and plain CSS
-                              </p>
-                            </div>
-                            <a href="https://thetripleacoder.github.io/acerprodland/"
-                              class="btn btn-dark project-card-button" target="_blank">See
-                              Project</a>
-                          </div>
-                        </div>
-
-                        <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6 mb-4">
-                          <div class="card fcc-project-card">
-                            <img class="card-img-top fcc-project-card-image" src="./images/fcc-4.jpg"
-                              alt="Card image" />
-                            <div class="card-body">
-                              <h4 class="card-title project-card-title">C++</h4>
-                              <p class="card-text">Technical Documentation Page
-                              </p>
-                              <p class="card-text project-card-description">Static single web page
-                                built with HTML and plain CSS
-                              </p>
-                            </div>
-                            <a href="https://thetripleacoder.github.io/Cplusplustechdoc/"
-                              class=" btn btn-dark project-card-button" target="_blank">See
-                              Project</a>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
                   </div>
                 </div>
-              </div>
-              <div class="col-xs-12 col-md-1 col-lg-1 col-xl-1 text-center align-self-center">
-                <a class="btn btn-secondary mb-3 mr-1" href="#carouselExampleIndicators2" role="button"
-                  data-slide="next">
-                  <i class="fa fa-arrow-right"></i>
-                </a>
+                <div
+                  class="col-xs-12 col-md-1 col-lg-1 col-xl-1 text-center align-self-center"
+                >
+                  <a
+                    class="btn btn-secondary mb-3 mr-1"
+                    href="#carouselExampleIndicators2"
+                    role="button"
+                    data-slide="next"
+                  >
+                    <i class="fa fa-arrow-right"></i>
+                  </a>
+                </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-
-    </div>
-
-    <!-- Contact -->
-    <div class="section-container " id="contact">
-      <!-- <div class="d-flex flex-wrap justify-content-center">
-      <div class="col-sm-12 col-md-10 col-xl-8  text-center">
-        <div class="row justify-content-center" id="contact-section-heading">
-          <div class="col-sm-12 col-md-4  text-center">
-            <div class=" text-center align-self-center section-title">
-              <h3 class="" id="contact-section-title">Contact</h3>
-            </div>
-          </div>
-        </div>
+      <!-- <div id="tech-stack">
+      <div id="tech-stack-content">
       </div>
     </div> -->
 
-      <div class="d-flex flex-wrap justify-content-center">
-        <div class="col-sm-12 col-md-10 col-xl-8">
-          <div class="row contact-section">
-            <div class="col-sm-12 col-md-6  text-center">
-              <div class="card my-5" id="about-card">
-                <h3 id="about-card-heading" class="mt-3">
-                  About the Developer
-                </h3>
-                <div class="m-4">
-                  <img src="./images/profile2.jpg" class="img-fluid rounded-circle" alt="" id="about-profile-image" />
-                </div>
-                <div class=" mt-3 mx-3">
-                  <p>👋 Hi! My name is Aldous, a Web Developer.</p>
-                  <p>
-                    I graduated from college with a Bachelor's Degree in Aerospace Engineering and had my internship as
-                    an
-                    Administrative Assistant in an Aircraft Maintenance, Repair & Overhaul (MRO) company.
-                  </p>
-                  <p>
-                    After college, I did not pursue landing any job in the field. Instead, I continued developing my
-                    interest and skills in multimedia, which includes photo and video editing, and managed a <a
-                      href="https://www.youtube.com/c/VolleyCENTRALOfficial" target="_blank">YouTube
-                      channel</a> I created in 2016.
-                  </p>
-                  <p>
-                    In 2021, I started learning how to code and explored more in the field of Computer Science. I then
-                    decided to go through a coding
-                    bootcamp training to kickstart a new career in Web Development and, with supplementary learnings and
-                    additional courses, I was able to land on my
-                    first
-                    regular job as a Front End
-                    Developer.
-                  </p>
+      <!-- Contact -->
+
+      <div class="section-container" id="contact">
+        <div class="d-flex flex-wrap justify-content-center">
+          <div class="col-sm-12 col-md-10 col-xl-8">
+            <div class="row contact-section">
+              <div class="col-sm-12 col-md-6 text-center">
+                <div class="card my-5" id="about-card">
+                  <h3 id="about-card-heading" class="mt-3">
+                    About the Developer
+                  </h3>
+                  <div class="mt-4">
+                    <img
+                      src="./resources/images/profile2.jpg"
+                      class="img-fluid rounded-circle"
+                      alt=""
+                      id="about-profile-image"
+                    />
+                  </div>
+
+                  <!-- <p class="mb-0 font-italic text-black-50">Click to view more</p> -->
+                  <div id="about-content-view"></div>
+                  <div id="loading-screen">
+                    <div class="loading-screen-container">
+                      <div class="spinner-grow" role="status">
+                        <span class="visually-hidden"></span>
+                      </div>
+                      <div class="spinner-grow" role="status">
+                        <span class="visually-hidden"></span>
+                      </div>
+                      <div class="spinner-grow" role="status">
+                        <span class="visually-hidden"></span>
+                      </div>
+                    </div>
+                  </div>
+                  <div id="overview">
+                    <div class="p-5">
+                      <p>
+                        👋 Hi! My name is Aldous, a Web Developer and an
+                        aspiring Full Stack Developer. Before I entered the Tech
+                        industry, I graduated from college with a Bachelor's
+                        Degree in Aerospace Engineering. It was not the best
+                        choice for me and did not pursue a career in the field.
+                        I tried learning how to code and found myself doing
+                        better in coding as a profession. I finished a semester
+                        in Computer Science and graduated from a coding bootcamp
+                        training. Currently, I have been working as a Frontend
+                        Developer for almost 2 years now.
+                      </p>
+                      <p>
+                        <i
+                          >(Check my current tech stack and personal timeline
+                          below)</i
+                        >
+                      </p>
+                    </div>
+                  </div>
+                  <div id="tech-stack">
+                    <div class="tech-stack-container"></div>
+                  </div>
+
+                  <div id="personal-timeline">
+                    <div class="personal-timeline-container">
+                      <p class="ml-4 pb-4 text-left">Present</p>
+                      <div class="px-5">
+                        <div class="timeline-content-container">
+                          <div class="timeline-content">
+                            <p>2021 - Present</p>
+                            <h6>Frontend Developer</h6>
+                            <p>TTEC Philippines Inc.</p>
+                          </div>
+                        </div>
+                        <div class="timeline-content-container">
+                          <div class="timeline-content">
+                            <p>2021 - 2021</p>
+                            <h6>Bootcamp Trainee</h6>
+                            <p>Zuitt Coding Bootcamp Philippines</p>
+                          </div>
+                        </div>
+                        <div class="timeline-content-container">
+                          <div class="timeline-content">
+                            <p>2021 - 2021</p>
+                            <h6>Bachelor of Science in Computer Science</h6>
+                            <p>AMA University</p>
+                          </div>
+                        </div>
+                        <div class="timeline-content-container">
+                          <div class="timeline-content">
+                            <p>2016 - 2021</p>
+                            <h6>Content Creator</h6>
+                            <p>
+                              YouTube Channel -
+                              <a
+                                href="https://www.youtube.com/c/VolleyCENTRALOfficial"
+                                target="_blank"
+                                >VOLLEYCENTRAL</a
+                              >
+                            </p>
+                          </div>
+                        </div>
+                        <div class="timeline-content-container">
+                          <div class="timeline-content">
+                            <p>2018 - 2019</p>
+                            <h6>Administrative Assistant Intern</h6>
+                            <p>
+                              Aviation Partnership (Phils.) Corporation - Aplus
+                            </p>
+                          </div>
+                        </div>
+                        <div class="timeline-content-container">
+                          <div class="timeline-content">
+                            <p>2014 - 2019</p>
+                            <h6>
+                              Bachelor of Science in Aerospace Engineering
+                            </h6>
+                            <p>Indiana Aerospace University</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="mt-2">
+                    <div class="d-flex justify-content-center">
+                      <button
+                        onclick="changeAboutSectionContent('overview', this)"
+                        class="about-btn btn btn-light btn-light border-dark rounded-0"
+                      >
+                        <p class="mb-0">Overview</p>
+                      </button>
+                      <button
+                        onclick="changeAboutSectionContent('tech-stack', this)"
+                        class="about-btn btn btn-light btn-light border-dark rounded-0"
+                      >
+                        <p class="mb-0">Tech Stack</p>
+                      </button>
+                      <button
+                        onclick="changeAboutSectionContent('personal-timeline', this)"
+                        class="about-btn btn btn-light border-dark rounded-0"
+                      >
+                        <p class="mb-0">Personal Timeline</p>
+                      </button>
+                    </div>
+                  </div>
                 </div>
               </div>
-            </div>
 
-            <div class="col-sm-12 col-md-6  contact-form-container">
-              <div class="card my-5" id="contact-form-card">
-                <h3 class="mt-5 text-center">
-                  Get in Touch!
-                </h3>
-                <div id="contact-form">
-                  <form class="p-5">
-                    <div class="form-group">
-                      <label for="name">Name</label>
-                      <input type="name" class="form-control" id="name" placeholder="Enter name" required>
-                    </div>
-                    <div class="form-group">
-                      <label for="email">Email address</label>
-                      <input type="email" class="form-control" id="email" placeholder="Enter email" required>
-                    </div>
-                    <div class="form-group">
-                      <label for="message">Message</label>
-                      <textarea class="form-control" id="message" rows="3" placeholder="Enter message"
-                        required></textarea>
-                    </div>
-                    <div>
-                      <button type="submit" class="d-flex btn btn-dark contact-button ">Send</button>
-                    </div>
-                  </form>
+              <div class="col-sm-12 col-md-6 contact-form-container">
+                <div class="card my-5" id="contact-form-card">
+                  <h3 class="mt-5 text-center">Get in Touch!</h3>
+                  <div id="contact-form">
+                    <form class="p-5">
+                      <div class="form-group">
+                        <label for="name">Name</label>
+                        <input
+                          type="name"
+                          class="form-control"
+                          id="name"
+                          placeholder="Enter name"
+                          required
+                        />
+                      </div>
+                      <div class="form-group">
+                        <label for="email">Email address</label>
+                        <input
+                          type="email"
+                          class="form-control"
+                          id="email"
+                          placeholder="Enter email"
+                          required
+                        />
+                      </div>
+                      <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea
+                          class="form-control"
+                          id="message"
+                          rows="3"
+                          placeholder="Enter message"
+                          required
+                        ></textarea>
+                      </div>
+                      <div>
+                        <button
+                          type="submit"
+                          class="d-flex btn btn-dark contact-button"
+                        >
+                          Send
+                        </button>
+                      </div>
+                    </form>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
       </div>
+
+      <!-- Footer -->
+      <footer class="d-flex flex-wrap justify-content-center" id="footer">
+        <div class="col-sm-12 col-md-10 col-lg-8 col-xl-6">
+          <div class="row justify-content-center mt-5">
+            <a href="#" class="footer-nav-links">Home </a>
+            <a href="#projects" class="footer-nav-links">Projects </a>
+            <a href="#contact" class="footer-nav-links">Contact </a>
+          </div>
+          <div
+            class="row justify-content-center mt-4"
+            id="contact-links-section"
+          >
+            <a
+              class="btn btn-outline-secondary rounded-circle contact-link-button"
+              href="https://www.linkedin.com/in/aldous-aldwin-alde/"
+              role="button"
+              target="_blank"
+              ><i class="fab fa-linkedin-in"></i
+            ></a>
+            <a
+              class="btn btn-outline-secondary rounded-circle contact-link-button"
+              href="https://github.com/thetripleacoder"
+              role="button"
+              target="_blank"
+              ><i class="fab fa-github"></i
+            ></a>
+            <a
+              class="btn btn-outline-secondary rounded-circle contact-link-button"
+              href="mailto:alde.aldous@gmail.com"
+              role="button"
+              target="_blank"
+              ><i class="far fa-envelope"></i
+            ></a>
+          </div>
+          <div class="row justify-content-center text-center mb-0 pb-0">
+            <span> Copyright &copy 2021 Aldous Aldwin Alde </span>
+          </div>
+        </div>
+      </footer>
     </div>
 
-    <!-- Footer -->
-    <footer class="d-flex flex-wrap justify-content-center" id="footer">
-      <div class="col-sm-12 col-md-10 col-lg-8 col-xl-6">
-        <div class="row justify-content-center mt-5">
-          <a href="#" class="footer-nav-links">Home </a>
-          <a href="#projects" class="footer-nav-links">Projects </a>
-          <a href="#contact" class="footer-nav-links">Contact </a>
-        </div>
-        <div class="row justify-content-center mt-4" id="contact-links-section">
-          <a class="btn btn-outline-secondary rounded-circle contact-link-button"
-            href="https://www.linkedin.com/in/aldous-aldwin-alde/" role="button" target="_blank"><i
-              class="fab fa-linkedin-in"></i></a>
-          <a class="btn btn-outline-secondary rounded-circle contact-link-button"
-            href="https://github.com/thetripleacoder" role="button" target="_blank"><i class="fab fa-github"></i></a>
-          <a class="btn btn-outline-secondary rounded-circle contact-link-button" href="mailto:alde.aldous@gmail.com"
-            role="button" target="_blank"><i class="far fa-envelope"></i></a>
-        </div>
-        <div class="row justify-content-center text-center mb-0 pb-0">
-          <span> Copyright &copy 2021 Aldous Aldwin Alde </span>
-        </div>
-      </div>
-    </footer>
-  </div>
-
-  <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
-  <script src="index.js"></script>
-  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
-  </script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous">
-  </script>
-</body>
-
+    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="index.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
