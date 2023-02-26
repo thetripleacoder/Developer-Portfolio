@@ -87,7 +87,7 @@ function displayTechStackIcons() {
             .replace(`https://${dir}`, '')
             .replace(`http://${dir}`, '');
           var logoName = filename
-            .replace('/logo-', '')
+            .replace('logo-', '')
             .replace('.png', '')
             .replace('_', ' ');
           // logoName = logoName.charAt(0).toUpperCase() + logoName.slice(1);
