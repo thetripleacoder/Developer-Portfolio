@@ -84,6 +84,7 @@ function displayTechStackIcons() {
         .each(function () {
           var filename = this.href
             .replace(window.location.host, '')
+            .replace(`https://${dir}`, '')
             .replace(`http://${dir}`, '');
           var logoName = filename
             .replace('/logo-', '')
