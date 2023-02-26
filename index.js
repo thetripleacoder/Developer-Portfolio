@@ -72,7 +72,7 @@ function initializeAboutSection() {
 }
 
 function displayTechStackIcons() {
-  var dir = '/resources/images/tech-stack';
+  var dir = '/resources/images/tech-stack/';
   var fileextension = '.png';
   $.ajax({
     //This will retrieve the contents of the folder if the folder is configured as 'browsable'
@@ -90,12 +90,13 @@ function displayTechStackIcons() {
             .replace('.png', '')
             .replace('_', ' ');
           // logoName = logoName.charAt(0).toUpperCase() + logoName.slice(1);
+          console.log(filename);
           $('.tech-stack-container').append(`
           <div class="flip-card">
             <div class="card-container">
               <div class="card">
                   <div class="front">
-                    <img class="front-img" src=".${dir}/${filename}">
+                    <img class="front-img" src="${dir}/${filename}">
                   </div>
                   <div class="back">
                     <p>${logoName}</p>
