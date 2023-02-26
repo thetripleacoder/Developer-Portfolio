@@ -95,7 +95,7 @@ function displayTechStackIcons() {
             <div class="card-container">
               <div class="card">
                   <div class="front">
-                    <img class="front-img" src="${dir}/${filename}">
+                    <img class="front-img" src=".${dir}/${filename}">
                   </div>
                   <div class="back">
                     <p>${logoName}</p>
@@ -112,31 +112,22 @@ function displayTechStackIcons() {
 window.onscroll = function () {
   var myNav = document.getElementById('navigation-bar');
   var navLinks = document.getElementsByClassName('nav-link');
+  var navItems = document.querySelectorAll('.nav-item');
   if (
     document.body.scrollTop >= 200 ||
     document.documentElement.scrollTop >= 200
   ) {
     myNav.classList.add('nav-colored');
     myNav.classList.remove('nav-transparent');
-    // Select all elements with class test
-    var navLinks = document.querySelectorAll('.nav-link');
-    var navItems = document.querySelectorAll('.nav-item');
-
-    // Apply CSS property to it
     for (var i = 0; i < navLinks.length; i++) {
       navLinks[i].classList.add('text-light');
-      navItems[i].classList.add('nav-item');
     }
   } else {
     myNav.classList.add('nav-transparent');
     myNav.classList.remove('nav-colored');
-    var navLinks = document.querySelectorAll('.nav-link');
-    var navItems = document.querySelectorAll('.nav-item');
 
-    // Apply CSS property to it
     for (var i = 0; i < navLinks.length; i++) {
       navLinks[i].classList.remove('text-light');
-      navLinks[i].classList.add('nav-link:hover');
     }
   }
 };
@@ -155,11 +146,9 @@ function changeAboutSectionContent(viewId, elem) {
     if (previousViewId !== viewId && previousBtnClick) {
       previousBtnClick.classList.remove('btn-dark');
       elem.classList.add('btn-dark');
-      aboutContent.classList.add('visible');
       $('#about-content-view').html(template.innerHTML);
     }
-    aboutContent.classList.remove('classname');
     previousViewId = viewId;
     previousBtnClick = elem;
-  }, 1500);
+  }, 1000);
 }
